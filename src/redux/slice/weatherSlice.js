@@ -3,8 +3,7 @@ import axios from "axios";
 
 
 
-// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-
+const API_KEY = 'b97fc92e2718b1e22318054793143138'
 const initialState  = {
     city:'' , 
     isLoading:false , 
@@ -15,8 +14,8 @@ const initialState  = {
 
 export const getWeather = createAsyncThunk('wether/get' , async(payload , data  , thunkAPI) =>{
     try {
-        const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${payload}&appid=${process.env.API_KEY}` , data)
-        console.log(res);
+        const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${payload}&appid=${API_KEY}` , data)
+        console.log(res.data);
         return res.data
     } catch (error) {
         const message = (error.message && error.response.message && error.response.data.message || error.toString())
