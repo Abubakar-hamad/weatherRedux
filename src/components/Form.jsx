@@ -36,8 +36,8 @@ function Form() {
 
     return (
     <div className='container'>
-        
         <div className="form">
+         
             <form  onSubmit={handleSubmit} action="">
 
                 <input onChange={(e)=> setData(e.target.value)} type="text" name='city'/>

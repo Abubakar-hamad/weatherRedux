@@ -42,12 +42,13 @@ function App() {
           </div> 
           </div>
         </div>
+
           <Form />
     
             <section id="about">
               <div className="container">
-                <h2>about site</h2>
-                <span></span>
+                <h1><b>About Site</b></h1>
+                <br />
                <div className="about">
                <div className="item">
                   <GrReactjs style={{color:'#1DA1F2' , fontSize:'5rem'}}/>
@@ -69,6 +70,16 @@ function App() {
                </div>
               </div>
             </section>
+
+            <footer id="contact">
+          
+                <div className="contact">
+                  <div className="con">asd</div>
+                  <div className="con"></div>
+                  <div className="con"></div>
+                  
+              </div>
+            </footer>
 
           <ToastContainer/>
 
