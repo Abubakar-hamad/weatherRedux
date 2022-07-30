@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+to see site on githup server : https://abubakar-hamad.github.io/weatherRedux/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
