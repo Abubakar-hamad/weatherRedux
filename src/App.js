@@ -54,19 +54,19 @@ function App() {
                <div className="item">
                   <GrReactjs style={{color:'#1DA1F2' , fontSize:'5rem'}}/>
                   <h2>Reactjs</h2>
-                  <p>the site created by uses  reactjs and axios </p>
+                  <p>the site created by using  reactjs and axios </p>
                 </div>  
 
                 <div className="item">
                   <SiRedux style={{color:'#764ABC' , fontSize:'5rem'}}/>
                   <h2>Redux</h2>
-                  <p>uses redux toolkit with create a think thunk and slices  </p>
+                  <p>using redux toolkit with create a think thunk and slices  </p>
                 </div>  
 
                 <div className="item">
                   <AiOutlineApi style={{color:'#F48225' , fontSize:'5rem'}}/>
                   <h2>API</h2>
-                  <p> uses Api from <a style={{color:"blue" , fontSize:"1rem"  , textDecoration:"underline" }} href="https://openweathermap.org/">open weather</a> </p>
+                  <p> using Api from <a style={{color:"blue" , fontSize:"1rem"  , textDecoration:"underline" }} href="https://openweathermap.org/">open weather</a> </p>
                 </div>  
                </div>
               </div>
