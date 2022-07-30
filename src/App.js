@@ -4,8 +4,9 @@ import logo from './assets/icon.png'
 import Form from "./components/Form";
 import {GrReactjs} from 'react-icons/gr'
 import {SiRedux} from 'react-icons/si'
-import {AiOutlineApi} from 'react-icons/ai'
+import {AiOutlineApi , AiFillGithub , AiOutlineWhatsApp , AiFillLinkedin} from 'react-icons/ai'
 import { ToastContainer } from 'react-toastify';
+import {CgMail} from 'react-icons/cg'
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -53,19 +54,19 @@ function App() {
                <div className="item">
                   <GrReactjs style={{color:'#1DA1F2' , fontSize:'5rem'}}/>
                   <h2>Reactjs</h2>
-                  <p>the site using  reactjs   , axios </p>
+                  <p>the site created by uses  reactjs and axios </p>
                 </div>  
 
                 <div className="item">
                   <SiRedux style={{color:'#764ABC' , fontSize:'5rem'}}/>
                   <h2>Redux</h2>
-                  <p>useing redux toolKit with thunk and slices  </p>
+                  <p>uses redux toolkit with create a think thunk and slices  </p>
                 </div>  
 
                 <div className="item">
                   <AiOutlineApi style={{color:'#F48225' , fontSize:'5rem'}}/>
                   <h2>API</h2>
-                  <p> useing Api from site <a style={{color:"blue" , fontSize:"1rem"  , textDecoration:"underline" }} href="https://openweathermap.org/">open weather</a> </p>
+                  <p> uses Api from <a style={{color:"blue" , fontSize:"1rem"  , textDecoration:"underline" }} href="https://openweathermap.org/">open weather</a> </p>
                 </div>  
                </div>
               </div>
@@ -74,12 +75,18 @@ function App() {
             <footer id="contact">
           
                 <div className="contact">
-                  <div className="con">asd</div>
-                  <div className="con"></div>
-                  <div className="con"></div>
+                  <div className="con"><a target='_blank' href="https://api.whatsapp.com/send/?phone=249922838007&text&type=phone_number&app_absent=0">< AiOutlineWhatsApp/></a></div>
+                  <div className="con"><a target='_blank' href="https://github.com/Abubakar-hamad"><AiFillGithub/></a></div>
+                  <div className="con"><a target='_blank' href="mailto:abubakar.hmdelneel@gmail.com "><CgMail/></a></div>
+                  <div className="con"><a target='_blank' href="https://www.linkedin.com/in/abubakar-hmd-52272b1b7/"><AiFillLinkedin/></a></div>
                   
               </div>
             </footer>
+              <div className="reserv">
+            
+              <p>Created by  Abubakar Hmd. &copy; 2022</p>
+                {/* <span>all reserv saved 2022 </span> */}
+              </div>
 
           <ToastContainer/>
 
